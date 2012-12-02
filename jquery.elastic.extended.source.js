@@ -61,7 +61,7 @@
 			return this.each( function() {
 
 				// Elastic only works on textareas
-				if ( this.type !== 'textarea' ) {
+				if ( this.type !== 'textarea' || $(this).attr('id') == 'undefined' ) {
 					return false;
 				}
 					
