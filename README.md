@@ -7,7 +7,7 @@ the plugin doesn't provide a `unelastic` method, so I extended the original plug
 method to clear things up.
  
 ##What I do
-***
+===
 There are two things to do to unelastic a textarea:
 * remove the hidden `div` created.
 * unbind the corresponding event listeners.
